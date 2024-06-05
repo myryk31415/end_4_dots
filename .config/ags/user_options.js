@@ -7,11 +7,18 @@ const userConfigOptions = {
 	'apps': {
 		'terminal': 'kitty',
 	},
+	'appearance': {
+		'fakeScreenRounding': 0,
+	},
 	'icons': {
         substitutions: {
             'vesktop': "discord",
         },
     },
+	'search': {
+		'engineBaseUrl': "https://www.ecosia.org/search?q=",
+		'excludedSites': [""],
+	},
 }
 
 export default userConfigOptions;
