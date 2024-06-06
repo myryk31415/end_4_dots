@@ -17,7 +17,7 @@ const userConfigOptions = {
     },
 	'search': {
 		'enableAiSearch': false,
-		'enableWebSearch': true,
+		'enableWebSearch': false,
 		'engineBaseUrl': "https://www.ecosia.org/search?q=",
 		'excludedSites': [],
 	},
