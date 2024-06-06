@@ -16,8 +16,10 @@ const userConfigOptions = {
         },
     },
 	'search': {
+		'enableAiSearch': false,
+		'enableWebSearch': true,
 		'engineBaseUrl': "https://www.ecosia.org/search?q=",
-		'excludedSites': [""],
+		'excludedSites': [],
 	},
 }
 
