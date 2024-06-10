@@ -10,16 +10,26 @@ const userConfigOptions = {
 	'appearance': {
 		'fakeScreenRounding': 0,
 	},
+	'configPaths': {
+		// 'keybinds': "/home/myryk/.config/hypr/UserConfigs/UserKeybinds.conf",
+		'keybinds': "/home/myryk/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
+	},
 	'icons': {
         substitutions: {
             'vesktop': "discord",
         },
     },
 	'search': {
-		'enableAiSearch': false,
-		'enableWebSearch': false,
+		'enableFeatures': {
+			'aiSearch': false,
+			'webSearch': false,
+		},
 		'engineBaseUrl': "https://www.ecosia.org/search?q=",
 		'excludedSites': [],
+	},
+	'overview': {
+		'numOfCols': 2,
+		'numOfRows': 5,
 	},
 }
 
