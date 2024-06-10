@@ -11,8 +11,8 @@ const userConfigOptions = {
 		'fakeScreenRounding': 0,
 	},
 	'configPaths': {
-		// 'keybinds': "/home/myryk/.config/hypr/UserConfigs/UserKeybinds.conf",
-		'keybinds': "/home/myryk/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
+		// 'keybinds': "~/.config/hypr/UserConfigs/UserKeybinds.conf",
+		'keybinds': "~/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
 	},
 	'icons': {
         substitutions: {
