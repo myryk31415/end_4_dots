@@ -28,8 +28,8 @@ const userConfigOptions = {
 		'excludedSites': [],
 	},
 	'overview': {
-		'numOfCols': 2,
-		'numOfRows': 5,
+		'numOfCols': 5,
+		'numOfRows': 2,
 	},
 }
 
