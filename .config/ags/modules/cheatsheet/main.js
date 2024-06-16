@@ -50,7 +50,7 @@ const CheatsheetHeader = () => Widget.CenterBox({
                     Widget.Label({
                         vpack: 'center',
                         className: "cheatsheet-key txt-small",
-                        label: "/",
+                        label: "C",
                     })
                 ]
             }),

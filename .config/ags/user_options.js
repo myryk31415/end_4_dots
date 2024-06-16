@@ -12,7 +12,8 @@ const userConfigOptions = {
 	},
 	'cheatsheet': {
 		'keybinds': {
-			'configPath': "~/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
+			'configPath': "/home/myryk/.config/hypr/UserConfigs/UserKeybinds.conf",
+			// 'configPath': "~/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
 		},
 	},
 	'icons': {
