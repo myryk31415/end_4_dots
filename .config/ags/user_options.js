@@ -10,9 +10,10 @@ const userConfigOptions = {
 	'appearance': {
 		'fakeScreenRounding': 0,
 	},
-	'configPaths': {
-		// 'keybinds': "~/.config/hypr/UserConfigs/UserKeybinds.conf",
-		'keybinds': "~/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
+	'cheatsheet': {
+		'keybinds': {
+			'configPath': "~/Documents/programming/end_4_dots/.config/hypr/hyprland/keybinds.conf",
+		},
 	},
 	'icons': {
         substitutions: {
