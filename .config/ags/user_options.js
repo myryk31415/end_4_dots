@@ -10,6 +10,11 @@ const userConfigOptions = {
 	'appearance': {
 		'fakeScreenRounding': 0,
 	},
+	'brightness': {
+		'controllers': {
+			'default': "brightnessctl",
+		},
+	},
 	'cheatsheet': {
 		'keybinds': {
 			'configPath': "/home/myryk/.config/hypr/UserConfigs/UserKeybinds.conf",
