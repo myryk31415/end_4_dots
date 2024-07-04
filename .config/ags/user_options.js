@@ -38,6 +38,10 @@ const userConfigOptions = {
 		'numOfCols': 5,
 		'numOfRows': 2,
 	},
+	'wallpaper': {
+		'popup': false,
+		'smart': false,
+	},
 }
 
 export default userConfigOptions;
