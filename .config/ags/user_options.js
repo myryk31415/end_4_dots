@@ -39,6 +39,7 @@ const userConfigOptions = {
 		'numOfRows': 2,
 	},
 	'wallpaper': {
+		'autoChange': true,
 		'popup': false,
 		'smart': false,
 	},
