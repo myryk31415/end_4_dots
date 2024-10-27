@@ -29,6 +29,7 @@ let configOptions = {
         'keyboardUseFlag': false, // Use flag emoji instead of abbreviation letters
         'layerSmoke': false,
         'layerSmokeStrength': 0.2,
+        'barRoundCorners': 1, // 0: No, 1: Yes
         'fakeScreenRounding': 1, // 0: None | 1: Always | 2: When not fullscreen
     },
     'apps': {
@@ -68,6 +69,10 @@ let configOptions = {
             'color': 'rgba(113,227,32,0.9)',
         },
     },
+    'i18n': {
+        'langCode': "",//Customize the locale, such as zh_CN,Optional value references "~/.config/ags/i18n/locales/"
+        'extraLogs': false
+    },
     'monitors': {
         'scaleMethod': "division", // Either "division" [default] or "gdk"
     },
@@ -102,6 +107,7 @@ let configOptions = {
             'columns': 2,
             'batchCount': 20,
             'allowNsfw': false,
+            'saveInFolderByTags': false,
         },
         'pages': {
             'order': ["apis", "tools"],
@@ -227,6 +233,12 @@ let configOptions = {
             'prevTab': "Ctrl+Page_Up",
             'cycleTab': "Ctrl+Tab",
         }
+    },
+    'bar': {
+        // Array of bar modes for each monitor. Hit Ctrl+Alt+Slash to cycle.
+        // Modes: "normal", "focus" (workspace indicator only), "nothing"
+        // Example for four monitors: ["normal", "focus", "normal", "nothing"]
+        'modes': ["normal"]
     },
 }
 

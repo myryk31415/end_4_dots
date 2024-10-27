@@ -59,7 +59,7 @@ export const Bar = async (monitor = 0) => {
                 SideModule([System()]),
             ]
         }),
-        endWidget: Indicators(),
+        endWidget: Indicators(monitor),
     });
     const focusedBarContent = Widget.CenterBox({
         className: 'bar-bg-focus',
@@ -103,12 +103,12 @@ export const Bar = async (monitor = 0) => {
             },
             setup: (self) => self
                 .hook(currentShellMode, (self) => {
-                    self.shown = currentShellMode.value;
+                    self.shown = currentShellMode.value[monitor];
                 })
                 .on("size-allocate", (self) => {
-                    if (self.children[currentShellMode.value]?.get_allocated_width() > monitors[monitor].width) {
-                        self.children[currentShellMode.value].centerWidget.children[0].visible = false;
-                        self.children[currentShellMode.value].centerWidget.children[2].visible = false;
+                    if (self.children[currentShellMode.value[monitor]]?.get_allocated_width() > monitors[monitor].width) {
+                        self.children[currentShellMode.value[monitor]].centerWidget.children[0].visible = false;
+                        self.children[currentShellMode.value[monitor]].centerWidget.children[2].visible = false;
                     }
                 })
             ,
